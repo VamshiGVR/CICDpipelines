@@ -1,5 +1,5 @@
 import pytest
-import source.main as test_main
+import source.basic as test_main
 
 
 #test on numbers
