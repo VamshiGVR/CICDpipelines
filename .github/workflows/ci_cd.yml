@@ -38,6 +38,7 @@ jobs:
         run : |
           pip install pytest 
           pytest tests/test_my_func.py
+          
 
       #CODE COVERAGE REPORT
       - name: Code coverage 
