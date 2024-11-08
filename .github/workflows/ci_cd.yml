@@ -36,8 +36,9 @@ jobs:
       #RUN TESTS
       - name: Run Tests
         run : |
-          pip install pytest tests/test_my_func.py 
-          pytest --maxfail=1 --disable-warnings
+          pip install pytest 
+          pytest tests/test_my_func.py
+          
 
       #CODE COVERAGE REPORT
       - name: Code coverage 
